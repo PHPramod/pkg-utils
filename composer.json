@@ -1,0 +1,20 @@
+{
+    "name": "bas/utils",
+    "description": "The BAS utility package.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pramod Tiwari",
+            "email": "praamodtiwar@yahoo.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "BAS\\Utils\\": "src/"
+        }
+    }
+}
